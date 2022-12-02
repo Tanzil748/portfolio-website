@@ -3,9 +3,9 @@ import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
   return (
-    <div>
+    <div className="flex flex-col justify-center items-center">
       <h1>My Projects</h1>
-      <div>
+      <div className="grid grid-cols-3 grid-center">
         <ProjectCard />
         <ProjectCard />
         <ProjectCard />
