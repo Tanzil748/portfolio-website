@@ -4,7 +4,7 @@ import { AiFillGithub, AiFillLinkedin, AiOutlineMail } from "react-icons/ai";
 
 const Hero = () => {
   return (
-    <div className="flex justify-around mb-10">
+    <div className="flex justify-around mb-10 flex-wrap">
       <div className="flex flex-col justify-center items-center">
         <p>Tanzil Hassan</p>
         <p>Front End & Full Stack Developer</p>
