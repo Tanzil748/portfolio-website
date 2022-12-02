@@ -1,9 +1,18 @@
-import React, { useState } from "react";
+import React from "react";
+import About from "./components/About";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import Projects from "./components/Projects";
+import TechStack from "./components/TechStack";
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="bg-red-500 flex justify-center">Test</h1>
+    <div className="bg-amber-100 min-h-screen">
+      <Header />
+      <Hero />
+      <About />
+      <Projects />
+      <TechStack />
     </div>
   );
 }
