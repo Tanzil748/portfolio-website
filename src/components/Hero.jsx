@@ -4,7 +4,7 @@ import { AiFillGithub, AiFillLinkedin, AiOutlineMail } from "react-icons/ai";
 
 const Hero = () => {
   return (
-    <div className="flex justify-around mb-10 flex-wrap">
+    <div className="flex justify-around mb-10 flex-wrap h-[75vh]">
       <div className="flex flex-col justify-center items-center">
         <p>Tanzil Hassan</p>
         <p>Front End & Full Stack Developer</p>
@@ -26,7 +26,7 @@ const Hero = () => {
           </li>
         </ul>
       </div>
-      <img src={profile} alt="" className="w-[300px]" />
+      <img src={profile} alt="" className="w-[350px]" />
     </div>
   );
 };
