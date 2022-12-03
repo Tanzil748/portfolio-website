@@ -13,7 +13,7 @@ const TechStack = () => {
   return (
     <>
       <h1 className="flex justify-center">My Tech Stack</h1>
-      <div className="flex mb-3 flex-col">
+      <div className="flex flex-col pb-3">
         <div className="flex flex-wrap justify-center items-center">
           <div className="w-[80px] h-[80px] shadow-2xl bg-white p-2 m-1">
             <img src={htmlLogo} alt="" />

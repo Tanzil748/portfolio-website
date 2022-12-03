@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { AiOutlineClose } from "react-icons/ai";
 
-const Header = () => {
+const Header = ({ darkTheme, setDarkTheme }) => {
   const [sideMenu, setSideMenu] = useState(false);
   const headerLinks = [
     {
@@ -57,14 +57,17 @@ const Header = () => {
         </ul>
       )}
 
-      <ul className="flex gap-4">
-        <li>darkMode</li>
-        <li className="hover:scale-105 duration-150">
-          <a href="#" className="bg-red-500 py-3 px-5 rounded-full font-bold">
-            Resume
-          </a>
-        </li>
-      </ul>
+      <div className="flex gap-2 items-center">
+        <button
+          onClick={() => setDarkTheme(!darkTheme)}
+          className=" bg-gray-500 rounded-full hover:shadow-lg py-2 px-3 hover:scale-110"
+        >
+          {darkTheme ? `💡` : "🌙"}
+        </button>
+        <button className="bg-red-500 py-2 px-3 rounded-full font-bold hover:scale-110">
+          Resume
+        </button>
+      </div>
     </div>
   );
 };
