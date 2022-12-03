@@ -9,18 +9,34 @@ import mongoLogo from "../assets/mongoLogo.png";
 
 const TechStack = () => {
   return (
-    <div className="flex items-center flex-col">
-      <h1>My Tech Stack</h1>
-      <div className="flex">
-        <img src={htmlLogo} alt="" />
-        <img src={cssLogo} alt="" />
-        <img src={tailwindLogo} alt="" className="w-[64px]" />
-        <img src={jsLogo} alt="" />
-        <img src={reactLogo} alt="" />
-        <img src={nodeLogo} alt="" />
-        <img src={mongoLogo} alt="" />
+    <>
+      <h1 className="flex justify-center">My Tech Stack</h1>
+      <div className="flex mb-3 flex-col">
+        <div className="flex flex-wrap justify-center items-center">
+          <div className="w-[80px] h-[80px] shadow-2xl bg-white p-2 m-1">
+            <img src={htmlLogo} alt="" />
+          </div>
+          <div className="w-[80px] h-[80px] shadow-2xl bg-white p-2 m-1">
+            <img src={cssLogo} alt="" />
+          </div>
+          <div className="w-[80px] h-[80px] shadow-2xl bg-white p-2 m-1">
+            <img src={tailwindLogo} alt="" className="w-[64px]" />
+          </div>
+          <div className="w-[80px] h-[80px] shadow-2xl bg-white p-2 m-1">
+            <img src={jsLogo} alt="" />
+          </div>
+          <div className="w-[80px] h-[80px] shadow-2xl bg-white p-2 m-1">
+            <img src={reactLogo} alt="" />
+          </div>
+          <div className="w-[80px] h-[80px] shadow-2xl bg-white p-2 m-1">
+            <img src={nodeLogo} alt="" />
+          </div>
+          <div className="w-[80px] h-[80px] shadow-2xl bg-white p-2 m-1">
+            <img src={mongoLogo} alt="" />
+          </div>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

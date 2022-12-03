@@ -7,7 +7,7 @@ import TechStack from "./components/TechStack";
 
 function App() {
   return (
-    <div className="bg-amber-100 min-h-screen">
+    <div className="">
       <Header />
       <Hero />
       <About />
