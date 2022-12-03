@@ -1,11 +1,13 @@
 import React from "react";
-import htmlLogo from "../assets/html.png";
-import cssLogo from "../assets/css.png";
-import tailwindLogo from "../assets/tailwind.png";
-import jsLogo from "../assets/js.png";
-import reactLogo from "../assets/reactLogo.png";
-import nodeLogo from "../assets/nodeLogo.png";
-import mongoLogo from "../assets/mongoLogo.png";
+import {
+  htmlLogo,
+  cssLogo,
+  tailwindLogo,
+  jsLogo,
+  reactLogo,
+  nodeLogo,
+  mongoLogo,
+} from "../assets";
 
 const TechStack = () => {
   return (

@@ -1,7 +1,6 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import project2 from "../assets/project2.png";
-import project1 from "../assets/project1.png";
+import { project1, project2 } from "../assets";
 
 const Projects = () => {
   return (
