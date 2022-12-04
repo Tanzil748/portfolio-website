@@ -10,7 +10,7 @@ const Hero = () => {
     >
       <div>
         <motion.p
-          className="text-5xl"
+          className="text-5xl py-2"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.5, duration: 1.5 }}
@@ -18,7 +18,7 @@ const Hero = () => {
           Tanzil Hassan
         </motion.p>
         <motion.p
-          className="text-xl pb-1"
+          className="text-xl pb-2"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.0, duration: 1.5 }}

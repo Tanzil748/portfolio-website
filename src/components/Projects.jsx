@@ -4,7 +4,7 @@ import { project1, project2 } from "../assets";
 
 const Projects = () => {
   return (
-    <div className="flex flex-col justify-center items-center">
+    <div className="flex flex-col justify-center items-center h-screen w-full">
       <h1>My Projects</h1>
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mx-3">
         <ProjectCard project={project1} title="Ecommerce" />
