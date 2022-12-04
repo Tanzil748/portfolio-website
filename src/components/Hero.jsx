@@ -8,14 +8,29 @@ const Hero = () => {
       name="Home"
       className="h-screen w-full pt-4 flex justify-center items-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 "
     >
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 0.5, duration: 1.5 }}
-      >
-        <p className="text-5xl">Tanzil Hassan</p>
-        <p className="text-xl">Front End & Full Stack Developer</p>
-        <ul className="flex gap-3 justify-center">
+      <div>
+        <motion.p
+          className="text-5xl"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.5, duration: 1.5 }}
+        >
+          Tanzil Hassan
+        </motion.p>
+        <motion.p
+          className="text-xl pb-1"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 1.0, duration: 1.5 }}
+        >
+          Front End & Full Stack Developer
+        </motion.p>
+        <motion.ul
+          className="flex gap-3 justify-center"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 1.5, duration: 1.5 }}
+        >
           <li>
             <a href="#">
               <AiFillGithub size={30} />
@@ -31,8 +46,8 @@ const Hero = () => {
               <AiOutlineMail size={30} />
             </a>
           </li>
-        </ul>
-      </motion.div>
+        </motion.ul>
+      </div>
     </div>
   );
 };
