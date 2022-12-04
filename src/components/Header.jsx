@@ -25,7 +25,12 @@ const Header = () => {
   ];
 
   return (
-    <div className="flex justify-between items-center w-full px-2 h-14 fixed bg-white">
+    <motion.div
+      className="flex justify-between items-center w-full px-2 h-14 fixed bg-white"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ delay: 0.5, duration: 1.5 }}
+    >
       <ul className="hidden sm:flex">
         {headerLinks.map(({ name, id }) => (
           <li
@@ -62,7 +67,7 @@ const Header = () => {
           Resume
         </button>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

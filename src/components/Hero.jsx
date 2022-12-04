@@ -1,14 +1,21 @@
 import React from "react";
-import { profile } from "../assets";
 import { AiFillGithub, AiFillLinkedin, AiOutlineMail } from "react-icons/ai";
+import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
-    <div className="flex justify-around mb-10 flex-wrap h-[75vh]">
-      <div className="flex flex-col justify-center items-center">
-        <p>Tanzil Hassan</p>
-        <p>Front End & Full Stack Developer</p>
-        <ul className="flex gap-3">
+    <div
+      name="Home"
+      className="h-screen w-full pt-4 flex justify-center items-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 "
+    >
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.5, duration: 1.5 }}
+      >
+        <p className="text-5xl">Tanzil Hassan</p>
+        <p className="text-xl">Front End & Full Stack Developer</p>
+        <ul className="flex gap-3 justify-center">
           <li>
             <a href="#">
               <AiFillGithub size={30} />
@@ -25,8 +32,7 @@ const Hero = () => {
             </a>
           </li>
         </ul>
-      </div>
-      <img src={profile} alt="" className="w-[350px]" />
+      </motion.div>
     </div>
   );
 };
