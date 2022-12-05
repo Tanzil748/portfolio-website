@@ -23,13 +23,13 @@ const TechStack = () => {
     },
     {
       id: 3,
-      pic: tailwindLogo,
-      title: "tailwind pic",
+      pic: jsLogo,
+      title: "js pic",
     },
     {
       id: 4,
-      pic: jsLogo,
-      title: "js pic",
+      pic: tailwindLogo,
+      title: "tailwind pic",
     },
     {
       id: 5,
@@ -50,19 +50,21 @@ const TechStack = () => {
   return (
     <div
       name="Tech"
-      className="w-full h-screen bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
+      className="w-full h-screen bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 flex flex-col justify-center"
     >
-      <h1 className="pl-3 text-3xl">My Tech Stack</h1>
-      <div className="flex flex-col pb-3">
-        <div className="flex flex-wrap justify-center items-center">
-          {logoArray.map(({ id, pic, title }) => (
-            <div
-              key={id}
-              className="w-[80px] h-[80px] shadow-2xl bg-white p-2 m-1"
-            >
-              <img src={pic} alt={title} />
-            </div>
-          ))}
+      <div className="mx-auto">
+        <h1 className="pl-3 text-3xl pb-3">My Tech Stack</h1>
+        <div className="">
+          <div className="flex flex-wrap justify-center items-center">
+            {logoArray.map(({ id, pic, title }) => (
+              <div
+                key={id}
+                className="w-[140px] h-[140px] shadow-2xl bg-white p-2 m-1"
+              >
+                <img src={pic} alt={title} className="w-[124px] h-[124px]" />
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>

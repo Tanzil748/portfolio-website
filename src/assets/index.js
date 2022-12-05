@@ -1,11 +1,11 @@
-import cssLogo from "./css.png";
-import htmlLogo from "./html.png";
-import jsLogo from "./js.png";
-import mongoLogo from "./mongoLogo.png";
-import nodeLogo from "./nodeLogo.png";
+import cssLogo from "./cssUpdated.png";
+import htmlLogo from "./htmlUpdated.png";
+import jsLogo from "./jsUpdated.png";
+import mongoLogo from "./mongoUpdated.png";
+import nodeLogo from "./nodeUpdated.png";
 import project1 from "./project1.png";
 import project2 from "./project2.png";
-import reactLogo from "./reactLogo.png";
+import reactLogo from "./reactUpdated.png";
 import tailwindLogo from "./tailwind.png";
 
 export {
