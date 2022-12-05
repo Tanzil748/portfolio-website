@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div
       name="Home"
-      className="h-screen w-full pt-4 flex justify-center items-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 "
+      className="h-screen w-full pt-4 flex justify-center items-center"
     >
       <div>
         <motion.p

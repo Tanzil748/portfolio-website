@@ -6,7 +6,6 @@ import nodeLogo from "./nodeUpdated.png";
 import project1 from "./project1.png";
 import project2 from "./project2.png";
 import reactLogo from "./reactUpdated.png";
-import tailwindLogo from "./tailwind.png";
 
 export {
   cssLogo,
@@ -17,5 +16,4 @@ export {
   project1,
   project2,
   reactLogo,
-  tailwindLogo,
 };

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { AiOutlineClose } from "react-icons/ai";
+import { Link } from "react-scroll";
 
 const Header = () => {
   const [sideMenu, setSideMenu] = useState(false);
@@ -37,7 +38,9 @@ const Header = () => {
             key={id}
             className="px-3 font-bold cursor-pointer hover:scale-110 duration-150"
           >
-            {name}
+            <Link to={name} smooth duration={500}>
+              {name}
+            </Link>
           </li>
         ))}
       </ul>
@@ -56,7 +59,14 @@ const Header = () => {
         <ul className="flex flex-col justify-center items-center w-full h-screen absolute top-0 left-0 bg-gradient-to-r from-cyan-500 to-blue-500">
           {headerLinks.map(({ name, id }) => (
             <li key={id} className="text-3xl cursor-pointer py-4 font-bold">
-              {name}
+              <Link
+                onClick={() => setSideMenu(!sideMenu)}
+                to={name}
+                smooth
+                duration={500}
+              >
+                {name}
+              </Link>
             </li>
           ))}
         </ul>

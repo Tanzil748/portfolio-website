@@ -7,7 +7,7 @@ import TechStack from "./components/TechStack";
 
 function App() {
   return (
-    <div className="bg-slate-600">
+    <div className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
       <Header />
       <Hero />
       <About />

@@ -2,7 +2,6 @@ import React from "react";
 import {
   htmlLogo,
   cssLogo,
-  tailwindLogo,
   jsLogo,
   reactLogo,
   nodeLogo,
@@ -28,30 +27,22 @@ const TechStack = () => {
     },
     {
       id: 4,
-      pic: tailwindLogo,
-      title: "tailwind pic",
-    },
-    {
-      id: 5,
       pic: reactLogo,
       title: "react logo",
     },
     {
-      id: 6,
+      id: 5,
       pic: nodeLogo,
       title: "node pic",
     },
     {
-      id: 7,
+      id: 6,
       pic: mongoLogo,
       title: "mongo pic",
     },
   ];
   return (
-    <div
-      name="Tech"
-      className="w-full h-screen bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 flex flex-col justify-center"
-    >
+    <div name="Tech" className="w-full h-screen flex flex-col justify-center">
       <div className="mx-auto">
         <h1 className="pl-3 text-3xl pb-3">My Tech Stack</h1>
         <div className="">

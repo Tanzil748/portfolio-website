@@ -3,11 +3,8 @@ import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <div
-      name="About"
-      className=" w-full h-screen bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"
-    >
-      <div className="flex flex-col justify-center max-w-[1000px] mx-auto">
+    <div name="About" className=" w-full h-screen">
+      <div className="flex flex-col justify-center max-w-[1000px] h-full mx-auto pt-10 sm:pt-0">
         <motion.h1
           className="text-3xl pl-3"
           initial={{ opacity: 0, translateX: -50 }}
