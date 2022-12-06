@@ -2,7 +2,7 @@ import React from "react";
 
 const ProjectCard = ({ overview, title }) => {
   return (
-    <div className=" bg-gray-500 shadow-lg rounded-lg group flex justify-center items-center mx-auto">
+    <div className=" bg-[#69809b] shadow-lg rounded-lg group flex justify-center items-center mx-auto">
       <div className="">
         <img src={overview} alt={title} className="rounded-t-lg" />
         <div className="flex justify-center items-center text-white text-xl">

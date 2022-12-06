@@ -29,8 +29,8 @@ const About = () => {
     <div name="About" className=" w-full h-screen">
       <div className="flex flex-col justify-center max-w-[1000px] h-full mx-auto pt-10 sm:pt-0">
         <motion.div animate={animation} ref={ref}>
-          <h1 className="text-3xl pl-3">About Me</h1>
-          <div className="text-xl p-3">
+          <h1 className="text-3xl pl-3 text-slate-300">About Me</h1>
+          <div className="text-xl p-3 text-slate-200">
             <p>
               Hi there! I graduated from John Jay College in June 2022 with a
               Bachelors of Science in Computer Science & Information Security.

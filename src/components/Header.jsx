@@ -27,7 +27,7 @@ const Header = () => {
 
   return (
     <motion.div
-      className="flex justify-between items-center w-full px-2 h-14 fixed bg-white"
+      className="flex justify-between items-center w-full px-2 h-14 fixed bg-[#09203F] text-slate-300"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ delay: 0.5, duration: 1.5 }}
@@ -56,7 +56,7 @@ const Header = () => {
       </div>
 
       {sideMenu && (
-        <ul className="flex flex-col justify-center items-center w-full h-screen absolute top-0 left-0 bg-gradient-to-r from-cyan-500 to-blue-500">
+        <ul className="flex flex-col justify-center items-center w-full h-screen absolute top-0 left-0 bg-gradient-to-t from-[#17509b] to-[#173f73]">
           {headerLinks.map(({ name, id }) => (
             <li key={id} className="text-3xl cursor-pointer py-4 font-bold">
               <Link
@@ -73,7 +73,7 @@ const Header = () => {
       )}
 
       <div>
-        <button className="bg-red-500 py-2 px-3 rounded-full font-bold hover:scale-110">
+        <button className="bg-[#144b93] py-2 px-3 rounded-full font-bold hover:scale-110">
           Resume
         </button>
       </div>

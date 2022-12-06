@@ -68,15 +68,19 @@ const TechStack = () => {
   return (
     <div name="Tech" className="w-full h-screen flex flex-col justify-center">
       <motion.div className="mx-auto" animate={animation} ref={ref}>
-        <h1 className="pl-3 text-3xl pb-3">My Tech Stack</h1>
+        <h1 className="pl-3 text-3xl pb-3 text-slate-300">My Tech Stack</h1>
         <div className="">
           <div className="flex flex-wrap justify-center items-center">
             {logoArray.map(({ id, pic, title }) => (
               <div
                 key={id}
-                className="w-[140px] h-[140px] shadow-2xl bg-white p-2 m-1"
+                className="w-[140px] h-[140px] shadow-2xl bg-[#69809b] p-2 m-1"
               >
-                <img src={pic} alt={title} className="w-[124px] h-[124px]" />
+                <img
+                  src={pic}
+                  alt={title}
+                  className="w-[124px] h-[124px] hover:scale-110"
+                />
               </div>
             ))}
           </div>
