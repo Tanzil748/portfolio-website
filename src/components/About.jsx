@@ -20,10 +20,9 @@ const About = () => {
     if (!inView) {
       animation.start({
         opacity: 0,
-        translateX: -50,
+        translateX: -100,
       });
     }
-    console.log("use effect hook, inView=", inView);
   }, [inView]);
 
   return (
