@@ -12,7 +12,7 @@ const ProjectCard = ({ overview, title, githubLink, demo }) => {
   };
 
   return (
-    <div className=" bg-[#69809b] shadow-lg rounded-lg group flex justify-center items-center mx-auto">
+    <div className=" bg-gradient-to-br from-blue-700 via-blue-800 to-gray-900 shadow-lg shadow-sky-600 rounded-lg group flex justify-center items-center mx-auto">
       <div className="">
         <img src={overview} alt={title} className="rounded-t-lg" />
         <div className="flex justify-center items-center text-white text-xl">
@@ -22,13 +22,13 @@ const ProjectCard = ({ overview, title, githubLink, demo }) => {
         <div className="flex justify-between gap-3 p-2">
           <button
             onClick={() => githubHandler(githubLink)}
-            className="w-1/2 bg-white rounded-md"
+            className="w-1/2 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-gray-900 to-gray-600 rounded-md text-white shadow-sm shadow-white"
           >
             Github Repo
           </button>
           <button
             onClick={() => demoHandler(demo)}
-            className="w-1/2 bg-red-50 rounded-md"
+            className="w-1/2 bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-sky-400 to-indigo-900 rounded-md text-white shadow-sm shadow-white"
           >
             Live Demo
           </button>

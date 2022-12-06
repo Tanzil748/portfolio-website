@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const About = () => {
   return (
     <div name="About" className=" w-full h-screen">
-      <div className="flex flex-col justify-center max-w-[1000px] h-full mx-auto pt-10 sm:pt-0">
+      <div className="flex flex-col justify-center h-full mx-auto pt-10 sm:pt-0">
         <motion.div
           initial="hidden"
           whileInView="visible"

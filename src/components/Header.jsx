@@ -56,7 +56,7 @@ const Header = () => {
       </div>
 
       {sideMenu && (
-        <ul className="flex flex-col justify-center items-center w-full h-screen absolute top-0 left-0 bg-gradient-to-t from-[#17509b] to-[#173f73]">
+        <ul className="flex flex-col justify-center items-center w-full h-screen absolute top-0 left-0 bg-gradient-to-tr from-blue-700 via-blue-800 to-gray-900">
           {headerLinks.map(({ name, id }) => (
             <li key={id} className="text-3xl cursor-pointer py-4 font-bold">
               <Link

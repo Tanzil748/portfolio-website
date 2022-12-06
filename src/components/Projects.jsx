@@ -36,7 +36,7 @@ const Projects = () => {
   ];
   return (
     <div name="Projects" className="md:h-screen w-full">
-      <div className="flex flex-col justify-center w-full h-full max-w-[1100px] mx-auto p-3 pt-16 sm:pt-14 md:pt-0">
+      <div className="flex flex-col justify-center w-full h-full mx-auto p-3 pt-16 sm:pt-14 md:pt-0">
         <motion.div
           initial="hidden"
           whileInView="visible"
