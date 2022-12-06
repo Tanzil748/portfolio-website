@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import {
   htmlLogo,
   cssLogo,
@@ -7,32 +7,9 @@ import {
   nodeLogo,
   mongoLogo,
 } from "../assets";
-import { motion, useAnimation } from "framer-motion";
-import { useInView } from "react-intersection-observer";
+import { motion } from "framer-motion";
 
 const TechStack = () => {
-  const { ref, inView } = useInView();
-  const animation = useAnimation();
-  useEffect(() => {
-    if (inView) {
-      animation.start({
-        opacity: 1,
-        translateY: 0,
-        transition: {
-          type: "spring",
-          duration: 3,
-          bounce: 0.1,
-        },
-      });
-    }
-    if (!inView) {
-      animation.start({
-        opacity: 0,
-        translateY: -100,
-      });
-    }
-  }, [inView]);
-
   const logoArray = [
     {
       id: 1,
@@ -67,7 +44,17 @@ const TechStack = () => {
   ];
   return (
     <div name="Tech" className="w-full h-screen flex flex-col justify-center">
-      <motion.div className="mx-auto" animate={animation} ref={ref}>
+      <motion.div
+        className="mx-auto"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        transition={{ duration: 3, type: "spring", bounce: 0.1 }}
+        variants={{
+          visible: { opacity: 1, translateY: 0 },
+          hidden: { opacity: 0, translateY: -100 },
+        }}
+      >
         <h1 className="pl-3 text-3xl pb-3 text-slate-300">My Tech Stack</h1>
         <div className="">
           <div className="flex flex-wrap justify-center items-center">

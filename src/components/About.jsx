@@ -1,34 +1,20 @@
-import React, { useEffect } from "react";
-import { motion, useAnimation } from "framer-motion";
-import { useInView } from "react-intersection-observer";
+import React from "react";
+import { motion } from "framer-motion";
 
 const About = () => {
-  const { ref, inView } = useInView();
-  const animation = useAnimation();
-  useEffect(() => {
-    if (inView) {
-      animation.start({
-        opacity: 1,
-        translateX: 0,
-        transition: {
-          type: "spring",
-          duration: 3,
-          bounce: 0.1,
-        },
-      });
-    }
-    if (!inView) {
-      animation.start({
-        opacity: 0,
-        translateX: -100,
-      });
-    }
-  }, [inView]);
-
   return (
     <div name="About" className=" w-full h-screen">
       <div className="flex flex-col justify-center max-w-[1000px] h-full mx-auto pt-10 sm:pt-0">
-        <motion.div animate={animation} ref={ref}>
+        <motion.div
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          transition={{ duration: 3, type: "spring", bounce: 0.1 }}
+          variants={{
+            visible: { opacity: 1, translateX: 0 },
+            hidden: { opacity: 0, translateX: -100 },
+          }}
+        >
           <h1 className="text-3xl pl-3 text-slate-300">About Me</h1>
           <div className="text-xl p-3 text-slate-200">
             <p>
