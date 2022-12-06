@@ -1,5 +1,6 @@
 import React from "react";
-import { AiFillGithub, AiFillLinkedin, AiOutlineMail } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import { MdOutlineMarkEmailUnread } from "react-icons/md";
 import { motion } from "framer-motion";
 
 const Hero = () => {
@@ -32,18 +33,26 @@ const Hero = () => {
           transition={{ delay: 1.5, duration: 1.5 }}
         >
           <li>
-            <a href="#">
-              <AiFillGithub size={30} />
+            <a href="https://github.com/Tanzil748" target="_blank">
+              <AiFillGithub size={30} className="hover:scale-110" />
             </a>
           </li>
           <li>
-            <a href="#">
-              <AiFillLinkedin size={30} color="#0072b1" />
+            <a href="https://www.linkedin.com/in/tanzilhassan/" target="_blank">
+              <AiFillLinkedin
+                size={30}
+                color="#0072b1"
+                className="hover:scale-110"
+              />
             </a>
           </li>
           <li>
-            <a href="#">
-              <AiOutlineMail size={30} />
+            <a href="mailto:tanzilhassan333@gmail.com">
+              <MdOutlineMarkEmailUnread
+                color="orange"
+                size={30}
+                className="hover:scale-110"
+              />
             </a>
           </li>
         </motion.ul>
