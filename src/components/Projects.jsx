@@ -35,8 +35,8 @@ const Projects = () => {
     },
   ];
   return (
-    <div name="Projects" className="md:h-screen w-full">
-      <div className="flex flex-col justify-center w-full h-full mx-auto p-3 pt-16 sm:pt-14 md:pt-0">
+    <div name="Projects" className="md:h-screen w-full snap-start">
+      <div className="flex flex-col justify-center w-full h-full mx-auto p-3 pt-16 sm:pt-14 md:pt-0 max-w-6xl">
         <motion.div
           initial="hidden"
           whileInView="visible"

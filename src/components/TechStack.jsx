@@ -43,7 +43,10 @@ const TechStack = () => {
     },
   ];
   return (
-    <div name="Tech" className="w-full h-screen flex flex-col justify-center">
+    <div
+      name="Tech"
+      className="w-full h-screen flex flex-col justify-center snap-center"
+    >
       <motion.div
         className="mx-auto"
         initial="hidden"

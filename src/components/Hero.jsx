@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <div
       name="Home"
-      className="h-screen w-full pt-4 flex justify-center items-center"
+      className="h-screen w-full pt-4 flex justify-center items-center snap-center"
     >
       <div>
         <motion.p
