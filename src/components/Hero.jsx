@@ -20,7 +20,7 @@ const Hero = () => {
           viewport={{ once: true }}
           className="flex flex-col justify-center items-center lg:items-start lg:pl-3"
         >
-          <div className="text-4xl py-2 text-slate-300">Hi, I'm</div>
+          <div className="text-4xl text-slate-300">Hi there, I'm</div>
           <div className="text-5xl py-2 text-slate-300">TANZIL HASSAN</div>
           <div>
             <TypeAnimation
