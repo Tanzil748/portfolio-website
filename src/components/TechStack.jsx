@@ -1,4 +1,5 @@
 import React from "react";
+import { fadeIn } from "./pageAnimation";
 import {
   htmlLogo,
   cssLogo,
@@ -6,6 +7,9 @@ import {
   reactLogo,
   nodeLogo,
   mongoLogo,
+  bootstrapLogo,
+  tailwindLogo,
+  githubLogo,
 } from "../assets";
 import { motion } from "framer-motion";
 
@@ -14,69 +18,83 @@ const TechStack = () => {
     {
       id: 1,
       pic: htmlLogo,
-      title: "html pic",
+      title: "HTML",
     },
     {
       id: 2,
       pic: cssLogo,
-      title: "css pic",
+      title: "CSS",
     },
     {
       id: 3,
       pic: jsLogo,
-      title: "js pic",
+      title: "Javascript",
     },
     {
       id: 4,
       pic: reactLogo,
-      title: "react logo",
+      title: "React",
     },
     {
       id: 5,
       pic: nodeLogo,
-      title: "node pic",
+      title: "Node",
     },
     {
       id: 6,
       pic: mongoLogo,
-      title: "mongo pic",
+      title: "MongoDB",
+    },
+    {
+      id: 7,
+      pic: bootstrapLogo,
+      title: "Bootstrap",
+    },
+    {
+      id: 8,
+      pic: tailwindLogo,
+      title: "Tailwind",
+    },
+    {
+      id: 9,
+      pic: githubLogo,
+      title: "Github",
     },
   ];
   return (
-    <div
-      name="Tech"
-      className="w-full h-screen flex flex-col justify-center snap-center"
-    >
+    <section className="min-h-[80vh] flex flex-col justify-center mt-4">
       <motion.div
-        className="mx-auto"
+        className="xl:container mx-auto"
+        variants={fadeIn("right")}
         initial="hidden"
-        whileInView="visible"
+        whileInView={"show"}
         viewport={{ once: true }}
-        transition={{ duration: 3, type: "spring", bounce: 0.1 }}
-        variants={{
-          visible: { opacity: 1, translateY: 0 },
-          hidden: { opacity: 0, translateY: -100 },
-        }}
       >
-        <h1 className="pl-3 text-3xl pb-3 text-slate-300">My Tech Stack</h1>
-        <div className="">
-          <div className="flex flex-wrap justify-center items-center">
-            {logoArray.map(({ id, pic, title }) => (
-              <div
-                key={id}
-                className="w-[140px] h-[140px] shadow-2xl bg-[#69809b] p-2 m-1"
-              >
-                <img
-                  src={pic}
-                  alt={title}
-                  className="w-[124px] h-[124px] hover:scale-110"
-                />
-              </div>
-            ))}
-          </div>
+        <div>
+          <h1 className="text-2xl lg:text-4xl text-slate-300 text-center font-bold">
+            My Tech Stack
+          </h1>
+        </div>
+
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 pt-4">
+          {logoArray.map(({ id, pic, title }) => (
+            <div
+              key={id}
+              className="shadow-md hover:scale-110 duration-500 py-2 rounded-lg"
+            >
+              <img
+                src={pic}
+                alt={title}
+                className="w-32 mx-auto rounded-[1.3rem]"
+              />
+              <p className="pt-4 text-white font-semibold text-center">
+                {title}
+              </p>
+            </div>
+          ))}
         </div>
       </motion.div>
-    </div>
+    </section>
   );
 };
 

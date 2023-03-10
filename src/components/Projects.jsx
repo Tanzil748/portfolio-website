@@ -52,7 +52,7 @@ const Projects = () => {
         viewport={{ once: true }}
       >
         <div>
-          <h1 className="text-2xl lg:text-4xl text-slate-300 text-center md:text-start pb-5">
+          <h1 className="text-2xl lg:text-4xl text-slate-300 text-center md:text-start pb-5 font-bold">
             My Projects
           </h1>
           <p className="text-lg lg:text-2xl text-slate-200 text-center md:text-start">

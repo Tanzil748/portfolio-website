@@ -38,7 +38,7 @@ const Hero = () => {
               ]}
               wrapper="div"
               repeat={Infinity}
-              className="text-red-500 text-3xl lg:text-4xl"
+              className="text-red-500 text-2xl lg:text-4xl"
             />
           </div>
           <motion.ul
@@ -49,7 +49,10 @@ const Hero = () => {
           >
             <li>
               <a href="https://github.com/Tanzil748" target="_blank">
-                <AiFillGithub size={30} className="hover:scale-110" />
+                <AiFillGithub
+                  size={30}
+                  className="hover:scale-110 duration-100"
+                />
               </a>
             </li>
             <li>
@@ -60,7 +63,7 @@ const Hero = () => {
                 <AiFillLinkedin
                   size={30}
                   color="#0072b1"
-                  className="hover:scale-110"
+                  className="hover:scale-110 duration-100"
                 />
               </a>
             </li>
@@ -69,7 +72,7 @@ const Hero = () => {
                 <MdOutlineMarkEmailUnread
                   color="orange"
                   size={30}
-                  className="hover:scale-110"
+                  className="hover:scale-110 duration-100"
                 />
               </a>
             </li>

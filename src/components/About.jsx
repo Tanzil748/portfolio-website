@@ -27,7 +27,7 @@ const About = () => {
           whileInView={"show"}
           viewport={{ once: true }}
         >
-          <h1 className="text-2xl lg:text-4xl text-slate-300 text-center">
+          <h1 className="text-2xl lg:text-4xl text-slate-300 text-center font-bold">
             About Me
           </h1>
           <p className="text-lg lg:text-2xl text-slate-200">
@@ -45,7 +45,7 @@ const About = () => {
             React Native. I look forward to meeting you!
           </p>
           <div className="flex justify-center">
-            <button className="bg-[#144b93] py-2 px-3 rounded-full font-bold hover:scale-110 text-white w-48">
+            <button className="bg-[#144b93] py-2 px-3 rounded-full font-bold hover:scale-110 duration-500 text-white w-48">
               <a href="./sampleResume.pdf" download>
                 Download Resume
               </a>
