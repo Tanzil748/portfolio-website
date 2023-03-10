@@ -7,8 +7,10 @@ const ProjectCard = ({ overview, title, githubLink, demo }) => {
   };
 
   const demoHandler = () => {
-    const openDemo = window.open(demo, "_blank", "noopener,noreferrer");
-    if (openDemo) openDemo.opener = null;
+    if (demo !== "https://tanzil748.github.io/portfolio-website/") {
+      const openDemo = window.open(demo, "_blank", "noopener,noreferrer");
+      if (openDemo) openDemo.opener = null;
+    }
   };
 
   return (
