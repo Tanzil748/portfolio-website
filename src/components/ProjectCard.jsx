@@ -12,12 +12,10 @@ const ProjectCard = ({ overview, title, githubLink, demo }) => {
   };
 
   return (
-    <div className=" bg-gradient-to-br from-blue-700 via-blue-800 to-gray-900 shadow-lg shadow-sky-600 rounded-lg group flex justify-center items-center mx-auto">
-      <div className="">
-        <img src={overview} alt={title} className="rounded-t-lg" />
-        <div className="flex justify-center items-center text-white text-xl">
-          {title}
-        </div>
+    <div className="bg-gradient-to-br from-blue-700 via-blue-800 to-gray-900 shadow-lg shadow-sky-600 rounded-lg overflow-hidden">
+      <div>
+        <img src={overview} alt={title} />
+        <div className="text-center text-white text-xl">{title}</div>
 
         <div className="flex justify-between gap-3 p-2">
           <button

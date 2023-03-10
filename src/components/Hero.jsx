@@ -11,7 +11,7 @@ import { fadeIn } from "./pageAnimation";
 
 const Hero = () => {
   return (
-    <section className="h-screen flex justify-center items-center">
+    <section className="h-[90vh] flex justify-center items-center">
       <div className="xl:container mx-auto grid grid-cols-1 lg:grid-cols-2">
         <motion.div
           variants={fadeIn("up")}
@@ -20,8 +20,12 @@ const Hero = () => {
           viewport={{ once: true }}
           className="flex flex-col justify-center items-center lg:items-start lg:pl-3"
         >
-          <div className="text-4xl py-2 text-slate-300">Hi, I'm</div>
-          <div className="text-5xl py-2 text-slate-300">TANZIL HASSAN</div>
+          <div className="text-3xl lg:text-4xl text-slate-300">
+            Hi there, I'm
+          </div>
+          <div className="text-4xl lg:text-5xl py-2 text-slate-300">
+            TANZIL HASSAN
+          </div>
           <div>
             <TypeAnimation
               sequence={[
@@ -34,7 +38,7 @@ const Hero = () => {
               ]}
               wrapper="div"
               repeat={Infinity}
-              className="text-red-500 text-4xl"
+              className="text-red-500 text-3xl lg:text-4xl"
             />
           </div>
           <motion.ul
