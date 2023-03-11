@@ -14,7 +14,7 @@ const ProjectCard = ({ overview, title, githubLink, demo }) => {
   };
 
   return (
-    <div className="bg-gradient-to-br from-blue-700 via-blue-800 to-gray-900 shadow-lg shadow-sky-600 rounded-lg overflow-hidden">
+    <div className="bg-gradient-to-br from-blue-700 via-blue-800 to-gray-900 shadow-lg shadow-sky-600 rounded-lg overflow-hidden font-paragraph">
       <div>
         <img src={overview} alt={title} />
         <div className="text-center text-white text-lg font-semibold">

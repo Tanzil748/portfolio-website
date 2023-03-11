@@ -37,7 +37,7 @@ const Header = () => {
       transition={{ delay: 0.5, duration: 1.5 }}
     >
       <div className="xl:container mx-auto py-3 px-2">
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items-center font-display">
           <div>
             <h1 className="font-bold text-xl">Tanzil Hassan</h1>
           </div>

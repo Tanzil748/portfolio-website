@@ -30,22 +30,21 @@ const About = () => {
           whileInView={"show"}
           viewport={{ once: true }}
         >
-          <h1 className="text-2xl lg:text-4xl text-slate-300 text-center font-bold">
+          <h1 className="text-2xl lg:text-4xl text-slate-300 text-center font-paragraph">
             About Me
           </h1>
-          <p className="text-lg lg:text-2xl text-slate-200">
+          <p className="text-lg lg:text-2xl text-slate-200 font-paragraph font-light">
             I graduated from John Jay College in June 2022 with a Bachelors of
             Science in Computer Science & Information Security. Growing up, I've
-            always been fascinated by computers, but I became truly interested
-            in computer science only after I attended a coding event at my
-            college.
+            always been fascinated by computers, which was furthered by the
+            coding events I attended at my college.
             <br />
             <br />I began my tech journey in Data Analytics as I loved to
             visualize my findings. However, after joining my school's Computer
-            Science Club, I realized that web development was my passion.
+            Science Club, I realized that web development was my true passion.
             Nowadays, I enjoy building React JS applications in my free time.
             I'm a lifelong learner and my eventual goal is to build apps in
-            React Native. I look forward to meeting you!
+            React Native. I look forward to meeting and working with you!
           </p>
           <div className="flex justify-center">
             <button className="bg-yellow-700 py-2 px-3 rounded-md font-bold hover:scale-110 duration-500 text-white w-48">

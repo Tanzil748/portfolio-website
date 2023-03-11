@@ -58,12 +58,12 @@ const Projects = () => {
         viewport={{ once: true }}
       >
         <div>
-          <h1 className="text-2xl lg:text-4xl text-slate-300 text-center md:text-start pb-5 font-bold">
+          <h1 className="text-2xl lg:text-4xl text-slate-300 text-center md:text-start pb-5 font-paragraph">
             My Projects
           </h1>
-          <p className="text-lg lg:text-2xl text-slate-200 text-center md:text-start">
+          <p className="text-lg lg:text-2xl text-slate-200 text-center md:text-start font-paragraph font-light">
             Check out my latest and favorite projects! The projects range in
-            simplicity from a school club landing page to an entire full stack
+            complexity from a school club landing page to an entire full stack
             application with a working frontend & backend.
           </p>
         </div>

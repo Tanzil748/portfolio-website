@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="bg-[#09203F] py-2">
       <div className="xl:container mx-auto">
-        <div className="flex flex-col justify-center items-center text-white">
+        <div className="flex flex-col justify-center items-center text-white font-display">
           <p>©Tanzil Hassan</p>
           <p className="text-center">
             2 5d PNG Designed By 588ku from <br />

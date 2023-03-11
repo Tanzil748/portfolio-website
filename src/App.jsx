@@ -10,7 +10,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     // spread background color to all components
-    <div className="bg-gradient-to-r from-blue-700 via-blue-800 to-gray-900 overflow-x-hidden">
+    <div className="bg-gradient-to-r from-blue-700 via-blue-800 to-gray-900 overflow-x-hidden font-display">
       <Header />
       <Hero />
       <About />

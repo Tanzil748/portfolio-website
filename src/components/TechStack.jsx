@@ -74,7 +74,7 @@ const TechStack = () => {
         viewport={{ once: true }}
       >
         <div>
-          <h1 className="text-2xl lg:text-4xl text-slate-300 text-center font-bold">
+          <h1 className="text-2xl lg:text-4xl text-slate-300 text-center font-paragraph">
             My Tech Stack
           </h1>
         </div>
