@@ -1,6 +1,12 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import { project1, project1Updated, project2, project4 } from "../assets";
+import {
+  project1,
+  project1Updated,
+  project2,
+  project4,
+  portfolio,
+} from "../assets";
 import { motion } from "framer-motion";
 import { fadeIn } from "./pageAnimation";
 
@@ -37,7 +43,7 @@ const Projects = () => {
     {
       id: 5,
       title: "Portfolio Website",
-      overview: project1,
+      overview: portfolio,
       githubLink: "https://github.com/Tanzil748/portfolio-website",
       demo: "https://tanzil748.github.io/portfolio-website/",
     },

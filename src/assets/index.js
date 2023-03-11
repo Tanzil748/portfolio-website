@@ -17,6 +17,7 @@ import project1 from "./project1.png";
 import project2 from "./project2.png";
 import project1Updated from "./project1Updated.png";
 import project4 from "./project4.png";
+import portfolio from "./portfolioProject.png";
 
 export {
   heroImg,
@@ -34,4 +35,5 @@ export {
   project1Updated,
   project2,
   project4,
+  portfolio,
 };
