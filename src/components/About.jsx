@@ -5,7 +5,10 @@ import { fadeIn } from "./pageAnimation";
 
 const About = () => {
   return (
-    <section className="h-screen w-full flex justify-center items-center">
+    <section
+      className="h-screen w-full flex justify-center items-center"
+      name="About"
+    >
       <div className="xl:container mx-auto flex">
         <motion.div
           className="basis-2/5 hidden lg:block"

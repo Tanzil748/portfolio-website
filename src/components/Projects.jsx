@@ -43,7 +43,7 @@ const Projects = () => {
     },
   ];
   return (
-    <section className="min-h-screen">
+    <section className="min-h-screen lg:pt-24" name="Projects">
       <motion.div
         className="xl:container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 px-2"
         variants={fadeIn("left")}

@@ -11,7 +11,10 @@ import { fadeIn } from "./pageAnimation";
 
 const Hero = () => {
   return (
-    <section className="h-[90vh] flex justify-center items-center">
+    <section
+      className="h-screen lg:h-[90vh] flex justify-center items-center"
+      name="Home"
+    >
       <div className="xl:container mx-auto grid grid-cols-1 lg:grid-cols-2">
         <motion.div
           variants={fadeIn("up")}
@@ -80,7 +83,7 @@ const Hero = () => {
         </motion.div>
 
         <motion.div
-          className="hidden lg:block relative h-[450px]"
+          className="hidden lg:block relative h-[450px] z-0"
           variants={fadeIn("down")}
           initial="hidden"
           whileInView={"show"}
