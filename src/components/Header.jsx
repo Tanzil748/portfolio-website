@@ -30,7 +30,7 @@ const Header = () => {
   ];
 
   return (
-    <motion.div
+    <motion.header
       className="bg-[#09203F] text-slate-300 fixed w-full z-[10]"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
@@ -87,7 +87,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-    </motion.div>
+    </motion.header>
   );
 };
 

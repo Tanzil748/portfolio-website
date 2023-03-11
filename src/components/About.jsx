@@ -48,7 +48,7 @@ const About = () => {
             React Native. I look forward to meeting you!
           </p>
           <div className="flex justify-center">
-            <button className="bg-[#144b93] py-2 px-3 rounded-full font-bold hover:scale-110 duration-500 text-white w-48">
+            <button className="bg-yellow-700 py-2 px-3 rounded-md font-bold hover:scale-110 duration-500 text-white w-48">
               <a href="./sampleResume.pdf" download>
                 Download Resume
               </a>

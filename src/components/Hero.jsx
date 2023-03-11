@@ -41,7 +41,7 @@ const Hero = () => {
               ]}
               wrapper="div"
               repeat={Infinity}
-              className="text-red-500 text-2xl lg:text-4xl"
+              className="text-yellow-500 text-2xl lg:text-4xl"
             />
           </div>
           <motion.ul
@@ -92,7 +92,7 @@ const Hero = () => {
           {/* three js blob animation inspired from lama dev tutorial */}
           <Canvas>
             <OrbitControls enableZoom={false} />
-            <ambientLight intensity={0.3} />
+            <ambientLight intensity={0.1} />
             <directionalLight position={[2, 2, 1]} />
             <Sphere args={[1, 100, 200]} scale={2.9}>
               <MeshDistortMaterial

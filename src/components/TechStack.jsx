@@ -63,11 +63,11 @@ const TechStack = () => {
   ];
   return (
     <section
-      className="min-h-[80vh] flex flex-col justify-center mt-4"
+      className="min-h-screen flex flex-col justify-center"
       name="Tech Stack"
     >
       <motion.div
-        className="xl:container mx-auto"
+        className="xl:container mx-auto py-16"
         variants={fadeIn("right")}
         initial="hidden"
         whileInView={"show"}
