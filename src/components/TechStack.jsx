@@ -67,7 +67,7 @@ const TechStack = () => {
       name="Tech Stack"
     >
       <motion.div
-        className="xl:container mx-auto py-16"
+        className="xl:container mx-auto"
         variants={fadeIn("right")}
         initial="hidden"
         whileInView={"show"}
