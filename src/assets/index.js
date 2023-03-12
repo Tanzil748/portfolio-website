@@ -6,6 +6,7 @@ import htmlLogo from "./techStack/htmlImg.png";
 import cssLogo from "./techStack/cssImg.png";
 import jsLogo from "./techStack/jsImg.png";
 import reactLogo from "./techStack/reactImg.png";
+import pythonLogo from "./techStack/pythonImg.png";
 import nodeLogo from "./techStack/nodeImg.png";
 import mongoLogo from "./techStack/mongoImg.png";
 import bootstrapLogo from "./techStack/bsImg.png";
@@ -26,6 +27,7 @@ export {
   cssLogo,
   jsLogo,
   reactLogo,
+  pythonLogo,
   nodeLogo,
   mongoLogo,
   bootstrapLogo,

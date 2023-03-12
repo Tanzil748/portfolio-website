@@ -5,6 +5,7 @@ import {
   cssLogo,
   jsLogo,
   reactLogo,
+  pythonLogo,
   nodeLogo,
   mongoLogo,
   bootstrapLogo,
@@ -37,26 +38,31 @@ const TechStack = () => {
     },
     {
       id: 5,
+      pic: pythonLogo,
+      title: "Python",
+    },
+    {
+      id: 6,
       pic: nodeLogo,
       title: "Node",
     },
     {
-      id: 6,
+      id: 7,
       pic: mongoLogo,
       title: "MongoDB",
     },
     {
-      id: 7,
+      id: 8,
       pic: bootstrapLogo,
       title: "Bootstrap",
     },
     {
-      id: 8,
+      id: 9,
       pic: tailwindLogo,
       title: "Tailwind",
     },
     {
-      id: 9,
+      id: 10,
       pic: githubLogo,
       title: "Github",
     },
@@ -85,11 +91,7 @@ const TechStack = () => {
               key={id}
               className="shadow-md hover:scale-110 duration-500 py-2 rounded-lg"
             >
-              <img
-                src={pic}
-                alt={title}
-                className="w-32 mx-auto rounded-[1.3rem]"
-              />
+              <img src={pic} alt={title} className="w-32 mx-auto" />
               <p className="pt-4 text-white font-semibold text-center">
                 {title}
               </p>
