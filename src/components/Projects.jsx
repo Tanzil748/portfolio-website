@@ -1,11 +1,11 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
 import {
-  project1,
   project1Updated,
   project2,
   project4,
   portfolio,
+  aniMango,
 } from "../assets";
 import { motion } from "framer-motion";
 import { fadeIn } from "./pageAnimation";
@@ -14,24 +14,24 @@ const Projects = () => {
   const projectCardData = [
     {
       id: 1,
+      title: "Postgres Project",
+      overview: project2,
+      githubLink: "#",
+      demo: "#",
+    },
+    {
+      id: 2,
       title: "Woodside Bazaar",
       overview: project4,
       githubLink: "https://github.com/Tanzil748/woodside-ecommerce",
       demo: "#",
     },
     {
-      id: 2,
+      id: 3,
       title: "ANI-MANGO",
-      overview: project2,
+      overview: aniMango,
       githubLink: "https://github.com/Tanzil748/ani-man_go/tree/main",
       demo: "https://tanzil748.github.io/ani-man_go/",
-    },
-    {
-      id: 3,
-      title: "Uno Royale",
-      overview: project1,
-      githubLink: "https://github.com/Tanzil748/uno-royale",
-      demo: "#",
     },
     {
       id: 4,
