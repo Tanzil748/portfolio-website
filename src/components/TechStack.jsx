@@ -5,7 +5,7 @@ import {
   cssLogo,
   jsLogo,
   reactLogo,
-  firebaseLogo,
+  postgresLogo,
   nodeLogo,
   mongoLogo,
   bootstrapLogo,
@@ -38,8 +38,8 @@ const TechStack = () => {
     },
     {
       id: 5,
-      pic: firebaseLogo,
-      title: "Firebase",
+      pic: postgresLogo,
+      title: "PostgreSQL",
     },
     {
       id: 6,

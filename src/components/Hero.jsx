@@ -71,7 +71,7 @@ const Hero = () => {
               </a>
             </li>
             <li>
-              <a href="mailto:tanzilhassan333@gmail.com">
+              <a href="mailto:tanzilhassan650@gmail.com">
                 <MdOutlineMarkEmailUnread
                   color="orange"
                   size={30}

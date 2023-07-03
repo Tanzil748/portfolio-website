@@ -39,12 +39,13 @@ const About = () => {
             always been fascinated by computers, which was furthered by the
             coding events I attended at my college.
             <br />
-            <br />I began my tech journey in Data Analytics as I loved to
-            visualize my findings. However, after joining my school's Computer
-            Science Club, I realized that web development was my true passion.
-            Nowadays, I enjoy building React JS applications in my free time.
-            I'm a lifelong learner and my eventual goal is to build apps in
-            React Native. I look forward to meeting and working with you!
+            <br />
+            After joining my school's Computer Science Club, I realized that web
+            development was my true passion. Since then, I have tried my hand in
+            all aspects of the full stack development cycle, from designing the
+            general UI to building a REST API. I hope to further my skills and
+            my eventual goal is to build Typescript applications in other
+            frameworks.
           </p>
           <div className="flex justify-center">
             <button className="bg-yellow-700 py-2 px-3 rounded-md font-bold hover:scale-110 duration-500 text-white w-48">
