@@ -16,8 +16,8 @@ const Projects = () => {
       id: 1,
       title: "Woodside Bazaar",
       overview: project4,
-      githubLink: "https://github.com/Tanzil748/woodside-ecommerce",
-      demo: "#",
+      githubLink: "https://github.com/Tanzil748/woodside-bazaar",
+      demo: "https://woodside-bazaar.vercel.app/",
     },
     {
       id: 2,
