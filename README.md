@@ -10,7 +10,7 @@ I built this website to introduce myself as well as showcase my favorite & lates
 
 Here's a walkthrough of the app design:
 
-![](https://github.com/Tanzil748/club-website/blob/main/Rwt1i7ISGE.gif)
+![](https://github.com/Tanzil748/portfolio-website/blob/main/gif/portfolio_gif.gif)
 
 ## Deployment
 
