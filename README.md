@@ -8,7 +8,9 @@ I built this website to introduce myself as well as showcase my favorite & lates
 
 ## Demo
 
-Here's a walkthrough of how the app functions:
+Here's a walkthrough of the app design:
+
+![](https://github.com/Tanzil748/club-website/blob/main/Rwt1i7ISGE.gif)
 
 ## Deployment
 
@@ -68,5 +70,5 @@ The app will run on port 5173 as below:
 ├── <strong>public</strong>
 │   ├── sampleResume.pdf (will update with latest one)
 │   └── vite.svg
-└── GIF (not added yet)
+└── gif
 </pre>

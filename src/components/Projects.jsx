@@ -21,24 +21,24 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: "AptTalk",
-      overview: aptTalk,
-      githubLink: "https://github.com/Tanzil748/apt_Talk",
-      demo: "https://apttalk-demo.netlify.app/",
-    },
-    {
-      id: 3,
       title: "ANI-MANGO",
       overview: aniMango,
       githubLink: "https://github.com/Tanzil748/ani-man_go/tree/main",
-      demo: "https://tanzil748.github.io/ani-man_go/",
+      demo: "https://sweet-crepe-ff73d2.netlify.app/",
     },
     {
-      id: 4,
+      id: 3,
       title: "QC TROPA Club Website",
       overview: project1Updated,
       githubLink: "https://github.com/Tanzil748/club-website",
       demo: "https://tanzil748.github.io/club-website/",
+    },
+    {
+      id: 4,
+      title: "AptTalk",
+      overview: aptTalk,
+      githubLink: "https://github.com/Tanzil748/apt_Talk",
+      demo: "#",
     },
     {
       id: 5,
