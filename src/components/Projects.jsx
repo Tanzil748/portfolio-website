@@ -37,8 +37,8 @@ const Projects = () => {
       id: 4,
       title: "AptTalk",
       overview: aptTalk,
-      githubLink: "https://github.com/Tanzil748/apt_Talk",
-      demo: "#",
+      githubLink: "https://github.com/Tanzil748/apt-talk",
+      demo: "https://apttalk-demo.netlify.app/",
     },
     {
       id: 5,

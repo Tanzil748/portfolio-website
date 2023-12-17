@@ -23,10 +23,10 @@ const Header = () => {
       name: "Tech Stack",
       id: 4,
     },
-    {
-      name: "Contact",
-      id: 5,
-    },
+    // {
+    //   name: "Contact",
+    //   id: 5,
+    // },
   ];
 
   return (
